@@ -3535,7 +3535,6 @@ input, select, textarea {
 		top: 0;
 		width: 18em;
 		z-index: 10000;
-		transition = 0.3s ease;
 	}
 
 		#sidebar > .inner {
@@ -3862,15 +3861,6 @@ input, select, textarea {
 						}
 
 		}
-		@media screen and (orientation : landscape){
-			#sidebar {
-				transform: translateX(-100%); /* Move sidebar out of view */
-    }
-    			#main {
-       				 margin-left: 0; /* Reset margin or adjust as needed */
-    }
-}
-
 		@media screen and (max-width: 736px) {
 
 			#sidebar {
